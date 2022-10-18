@@ -6,34 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>biogragia</title>
-    
+
     <style>
         h1 {
             color: rgb(15, 216, 8);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
         body {
-           background-color: rgb(36, 156, 165); 
+            background-color: rgb(36, 156, 165);
         }
+
         #destaque {
-            background-color: darkmagenta;
+            background-color: rgb(122, 1, 122);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         #trybe {
             color: chartreuse;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+
+        #imagem {
+            background-color: black;
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- nome com negrito -->
+    <!-- nome com negrito + link interno -->
     <h1><strong>Tawam C. Cagnin</strong></h1>
     <h2><a href="#trybe">Trybe</a></h2>
 
     <!-- adicionando imagem -->
-    <img src="IMG-5641.jpg" width="300" alt="um jovem de aparencia duvidosa">
+    <img src="IMG-5641.jpg" width="300" alt="um jovem de aparencia duvidosa" id="imagem">
 
 
     <!-- apresentação -->
@@ -54,7 +61,7 @@
         </ul>
     </h3>
 
-    <!--add link externo -->
+    <!--add link externo + id trybe-->
     <h2 id="trybe"> Conheça a plataforma de estudos da
         <strong>
             <a href="https://blog.betrybe.com" target="_blank"> Trybe</a>
