@@ -10,7 +10,7 @@ body {
 
 #destaque {
     font-size: 20px;
-    background-color: rgb(122, 1, 122);
+    background-color: rgb(250, 201, 250);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -23,5 +23,13 @@ body {
 
 #habilidades {
     font-size: 25px;
+    color: rgb(23, 20, 220);
+    
+}
+#nome {
+    text-align: center;
+}
 
+#apresentação {
+    width: 300px;
 }
